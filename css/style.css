@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../assets/svg/shape_35_0\ 1.svg);
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/*--------------------HEADER-START--------------- */
+.header {
+    margin-bottom: 48px;
+    margin-top: 24px;
+    width: 1180px;
+    height: 69px;
+    border-radius: 15px;
+    border: 1.3px solid #000;
+    background: rgba(0, 0, 0, 0.13);
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-left: 8px;
+    width: 1164px;
+    height: 32px;
+    border-radius: 11.25px 11.25px 11px 11px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.header-list {
+    padding: 26px 0 25 0px;
+    display: flex;
+    align-items: center;
+    gap: 0 36px;
+}
+
+.header-link {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 2px 0px #000;
+    font-family: Supercell-Magic;
+    margin-top: 23px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.header-link-2 {
+    margin-left: 45px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 2px 0px #000;
+    font-family: Supercell-Magic;
+    margin-top: 20px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.header-logo {
+    margin-top: 15px;
+    margin-left: 12px;
+}
+
+.header-btn-box {
+    margin-left: 50px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: linear-gradient(180deg, #90CC38 0%, #60A430 100%);
+}
+
+.header-btn-box-title {
+    color: #FFF;
+    text-shadow: 0px 2px 0px #000;
+    font-family: "KZ Supercell-Magic";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    margin-top: 12px;
+    padding: 12px 17px 8px 11px;
+}
+
+.header-btn-box-2 {
+    margin-bottom: 10px;
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+    width: 195px;
+    height: 19px;
+    border-radius: 5px 5px 7px 7px;
+    background: linear-gradient(180deg, #D0E878 0%, rgba(208, 232, 120, 0.19) 117.05%);
+}
+.header-btn-box-4 {
+    margin-bottom: 10px;
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+    width: 195px;
+    height: 19px;
+    border-radius: 5px 5px 7px 7px;
+    background: linear-gradient(180deg, #D0E878 0%, rgba(208, 232, 120, 0.19) 117.05%);
+}
+
+.header-btn-box-3 {
+    margin-bottom: 7px;
+    margin-left: 3px;
+    width: 32.17px;
+    height: 14.553px;
+    border-radius: 3.83px 3.83px 5.362px 5.362px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.31) 0%, rgba(255, 255, 255, 0.04) 117.05%);
+    z-index: -2;
+}
+
+.header-btn-box-title {
+    margin-top: 20px;
+    color: #FFF;
+    text-shadow: 0px 2px 0px #000;
+    font-family: "KZ Supercell-Magic";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.header-btn {
+    position: relative;
+    margin-top: 10px;
+    width: 39.83px;
+    height: 30.638px;
+    border-radius: 4.596px;
+    border: 0.766px solid rgba(255, 255, 255, 0.05);
+    color: #FFF;
+    text-shadow: 0px 0.8px 0px #000;
+    font-family: "KZ Supercell-Magic";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    background: linear-gradient(180deg, #000 0%, #000 100%);
+}
+
+.header-btn-box-title-2 {
+    position: absolute;
+    left: 10px;
+    bottom: 3px;
+    color: #FFF;
+    text-shadow: 0px 0.8px 0px #000;
+    font-family: "KZ Supercell-Magic";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.3px;
+}
+.header-btn-img {
+    margin-top: 12px;
+}
+/*--------------------HEADER-END--------------- */
